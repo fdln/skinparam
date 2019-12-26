@@ -1,0 +1,59 @@
+@startuml styleparam
+' skinparam monochrome true
+!define ACCENT #E29B2C
+!define BACKGROUND #242533
+!define BOXCOLOR #2B2B2B
+skinparam backgroundColor BACKGROUND
+' skinparam handwritten true
+skinparam shadowing false 
+
+skinparam collections {
+	BackgroundColor BACKGROUND
+	BorderColor ACCENT
+}
+skinparam roundcorner 4
+skinparam BoxPadding 10
+skinparam sequence {
+	classFontColor red
+	ArrowColor ACCENT
+	ActorBorderColor DeepSkyBlue
+	LifeLineBorderColor gray
+  ArrowFontColor #fff
+	LifeLineBorderThickness 1
+	LifeLineBackgroundColor ACCENT
+  LifeLineBorderColor ACCENT
+	ProcesBackgroundColor #fff
+	ArrowThickness 1
+
+	ParticipantBorderColor ACCENT
+	ParticipantBackgroundColor #242533
+	ParticipantFontName source code pro
+	ParticipantFontSize 18
+	ParticipantFontColor #FFFFFF
+	ParticipantPadding 20
+	StereotypeFontColor ACCENT
+
+  BoxBackgroundColor #1B252D
+  BoxBorderColor #0E7F5B
+	BoxFontColor white
+	
+
+	ActorBackgroundColor ACCENT
+	ActorFontColor white
+	ActorBorderColor ACCENT
+	ActorFontSize 18
+	ActorFontName source code pro
+
+	TitleFontColor #FFF
+
+	GroupBorderColor ACCENT
+	GroupBorderColor royalblue
+	GroupBackgroundColor royalblue
+	GroupBodyBackgroundColor #161D24
+	GroupHeaderFontColor white
+	GroupFontColor white
+	' GroupFontColor green
+	' GroupBodyBackgroundColor yellow
+}
+
+@enduml
